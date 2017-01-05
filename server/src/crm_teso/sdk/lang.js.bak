@@ -1,0 +1,13 @@
+var price_text = [];
+price_text[1] = 'Үнэ';
+price_text[2] = 'Сүлжээ';
+price_text[3] = 'Номин';
+var ip = '103.48.116.22';
+var langs = [];
+var ware_text = [];
+ware_text[0] = 'Агуулах 1';
+ware_text[1] = 'Агуулах 2';
+product_sort_field = '_class';
+product_image_field = 'product_id';
+product_image_ext = '.jpg';
+number_float = false;

@@ -1,0 +1,305 @@
+#phones {
+    background-color: #fff;
+    position: relative;
+    display: block;
+    height: auto;
+}
+
+
+#phones div.phone img {
+    margin-bottom: 1px;
+}
+
+#phones div.phone {
+    float: left;
+	padding: 3px 6px;
+	margin: 1px;    
+    text-align: left;
+    line-height: 14px;
+    color: #333;
+    font-size: 12px;
+    font-family: "Segoe UI",sans-serif;
+    height: 80px;
+    width: 330px;
+    overflow: hidden;
+    border-top: 1px solid #fff;
+	-moz-border-radius: 5px;
+    cursor: pointer;
+	background-color: #d6e2d3;
+	background: -moz-linear-gradient(center top,#e8f0e4,#f7f7ff 90%);
+	background: -webkit-gradient(linear,left top,left 90%,from(#e8f0e4),to(#f7f7ff));
+	border-radius: 5px;
+}
+
+#phones div.phone:hover {
+	border: 1px solid #ffa88a;	
+}
+
+#phones div.phone.suspect{
+    background-color: #ebb;
+	background: -moz-linear-gradient(center top,#ff9682,#fff 90%);
+	background: -webkit-gradient(linear,left top,left 90%,from(#ff9682),to(#fff));
+}
+
+#phones div.phone.suspect:hover{
+    border: 1px solid #ffa88a;
+}
+
+#phones div.phone.prospect{
+    background-color: #ffdba6;
+	background: -moz-linear-gradient(center top,#ffd7a7,#fff 90%);
+	background: -webkit-gradient(linear,left top,left 90%,from(#ffd7a7),to(#fff));
+}
+
+#phones div.phone.prospect:hover{
+   border: 1px solid #ffa88a;
+}
+
+.x-ie6 #phones div.phone,
+.x-ie7 #phones div.phone,
+.x-ie8 #phones div.phone {
+    border-top: none;
+    padding: 3px 2px;
+    margin: 2px;
+}
+
+#phones div.phone-hover {
+    background-color: #eee;
+}
+
+#phones .x-item-selected {
+    background-color: #D3E1F1 !important;
+}
+
+#phones div.phone strong {
+    color: #000;
+    display: block;
+}
+
+#phones div.phone span.text {
+    color: #999;
+	line-height: 15px;
+}
+
+#phones div.phone .content {
+	padding-top: 4px;
+	height: 45px;
+}
+
+.tag-wrapper {
+	color: #fff;
+	text-align: right;
+	position: relative;
+	bottom: 0;
+	right: 0;
+}
+
+.tag {
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	text-transform: uppercase;
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: xx-small;
+	color: #fff;
+	text-shadow: 0 1px 1px #666;
+	background-color: gray;
+	padding: 1px 5px;
+	margin-top: 2px;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+.tag.Code {
+	background-color: #9c4b4a;
+	color: #fff;
+}
+
+.tag.orange {
+	background-color: #d56a00;
+	color: #fff;
+}
+
+.tag.Demo {
+	background-color: #558c00;
+}
+
+
+
+
+
+
+#leads {
+    background-color: #fff;
+    position: relative;
+    display: block;
+    height: auto;
+}
+
+
+#leads div.phone img {
+    margin-bottom: 1px;
+}
+
+#leads div.phone {
+    float: left;
+	padding: 3px 6px;
+	margin: 1px;    
+    text-align: left;
+    line-height: 14px;
+    color: #333;
+    font-size: 11px;
+    font-family: "Helvetica Neue",sans-serif;
+    height: 50px;
+    width: 117px;
+    overflow: hidden;
+    border-top: 1px solid #fff;
+	-moz-border-radius: 5px;
+    cursor: pointer;
+	background-color: #d6e2d3;
+	background: -moz-linear-gradient(center top,#e8f0e4,#fff 90%);
+	background: -webkit-gradient(linear,left top,left 90%,from(#e8f0e4),to(#fff));
+	border-radius: 5px;
+}
+
+#leads div.phone:hover {
+	border: 1px solid #ffa88a;	
+}
+
+#leads div.phone.suspect{
+    background-color: #ebb;
+	background: -moz-linear-gradient(center top,#ff9682,#fff 90%);
+	background: -webkit-gradient(linear,left top,left 90%,from(#ff9682),to(#fff));
+}
+
+#leads div.phone.suspect:hover{
+    border: 1px solid #ffa88a;
+}
+
+#leads div.phone.prospect{
+    background-color: #ffdba6;
+	background: -moz-linear-gradient(center top,#ffd7a7,#fff 90%);
+	background: -webkit-gradient(linear,left top,left 90%,from(#ffd7a7),to(#fff));
+}
+
+#leads div.phone.prospect:hover{
+   border: 1px solid #ffa88a;
+}
+
+.x-ie6 #leads div.phone,
+.x-ie7 #leads div.phone,
+.x-ie8 #leads div.phone {
+    border-top: none;
+    padding: 3px 2px;
+    margin: 2px;
+}
+
+#leads div.phone-hover {
+    background-color: #eee;
+}
+
+#leads .x-item-selected {
+    background-color: #D3E1F1 !important;
+}
+
+#leads div.phone strong {
+    color: #000;
+    display: block;
+}
+
+#leads div.phone span.text {
+    color: #999;
+}
+
+#leads div.phone .content {
+	padding-top: 4px;
+	height: 40px;
+}
+
+
+#competitor {
+    background-color: #fff;
+    position: relative;
+    display: block;
+    height: auto;
+}
+
+
+#competitor div.phone img {
+    margin-bottom: 1px;
+}
+
+#competitor div.phone {
+    float: left;
+	padding: 3px 6px;
+	margin: 3px;    
+    text-align: left;
+    line-height: 14px;
+    color: #333;
+    font-size: 11px;
+    font-family: "Helvetica Neue",sans-serif;
+    height: 50px;
+    width: 180px;
+    overflow: hidden;
+    border-top: 1px solid #fff;
+	-moz-border-radius: 5px;
+    cursor: pointer;
+	background-color: #d6e2d3;
+	background: -moz-linear-gradient(center top,#e8f0e4,#fff 90%);
+	background: -webkit-gradient(linear,left top,left 90%,from(#e8f0e4),to(#fff));
+	border-radius: 5px;
+}
+
+#competitor div.phone:hover {
+	border: 1px solid #ffa88a;	
+}
+
+#competitor div.phone.suspect{
+    background-color: #ebb;
+	background: -moz-linear-gradient(center top,#ff9682,#fff 90%);
+	background: -webkit-gradient(linear,left top,left 90%,from(#ff9682),to(#fff));
+}
+
+#competitor div.phone.suspect:hover{
+    border: 1px solid #ffa88a;
+}
+
+#competitor div.phone.prospect{
+    background-color: #ffdba6;
+	background: -moz-linear-gradient(center top,#ffd7a7,#fff 90%);
+	background: -webkit-gradient(linear,left top,left 90%,from(#ffd7a7),to(#fff));
+}
+
+#competitor div.phone.prospect:hover{
+   border: 1px solid #ffa88a;
+}
+
+.x-ie6 #competitor div.phone,
+.x-ie7 #competitor div.phone,
+.x-ie8 #competitor div.phone {
+    border-top: none;
+    padding: 3px 2px;
+    margin: 2px;
+}
+
+#competitor div.phone-hover {
+    background-color: #eee;
+}
+
+#competitor .x-item-selected {
+    background-color: #D3E1F1 !important;
+}
+
+#competitor div.phone strong {
+    color: #000;
+    display: block;
+}
+
+#competitor div.phone span.text {
+    color: #999;
+}
+
+#competitor div.phone .content {
+	padding-top: 4px;
+	height: 40px;
+}

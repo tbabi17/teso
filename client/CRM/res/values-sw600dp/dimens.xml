@@ -1,0 +1,34 @@
+<resources>
+
+    <!--
+         Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw600dp devices (e.g. 7" tablets) here.
+    -->
+    <dimen name="login_user_width">350dip</dimen>
+    <dimen name="edit_font_size">25dip</dimen>
+    <dimen name="edit_padding">15dip</dimen>
+    <dimen name="text_padding">10dip</dimen>
+    
+    <dimen name="avatar_icon_size">70dip</dimen>
+    
+    <dimen name="label_width">200dip</dimen>
+    
+    <dimen name="title_font_size">28dip</dimen>
+    <dimen name="customer_title_font_size">25dip</dimen>
+    <dimen name="sub_title_font_size">20dip</dimen>
+    
+    <dimen name="footer_font_size">16dip</dimen>    
+    <dimen name="toolbar_font_size">26dip</dimen>
+	<dimen name="toolbar_button_size">60dip</dimen>
+	<dimen name="toolbar_padding">18dip</dimen>
+	<dimen name="toolbar_padding_hi">20dip</dimen>
+    
+	<dimen name="padaan_font_size">18dip</dimen>
+	<dimen name="product_list_item_padding">10dip</dimen>
+	<dimen name="product_list_item_font_size">22dip</dimen>
+	<dimen name="product_list_sub_item_font_size">18dip</dimen>
+	<dimen name="list_item_padding">25dip</dimen>
+	<dimen name="list_item_font_size">25dip</dimen>
+	<dimen name="list_sub_item_font_size">15dip</dimen>
+	<dimen name="toolbar_search_font_sze">22dip</dimen>
+</resources>

@@ -1,0 +1,48 @@
+.ux-cal
+{
+    font-size:11px;
+}
+
+.ux-cal .ux-cal-weekday
+{
+    background:#DFECFB url(../../resources/images/default/shared/glass-bg.gif) repeat-x scroll left top;
+	font-weight:bold;
+	height:25px;
+}
+
+.ux-cal .ux-cal-header
+{
+    background:transparent url(../../resources/images/default/shared/hd-sprite.gif) repeat-x scroll 0 -83px;
+    height:25px;
+}
+
+.ux-cal .ux-cal-header .ux-cal-monthTitle
+{
+	text-align:center;
+    color:#ffffff;
+	font-weight:bold;
+}
+
+
+.ux-cal td
+{
+	text-align: center;
+	vertical-align: middle;
+	border:solid 1px white;
+	cursor:pointer;
+}
+
+.ux-cal .ux-cal-row td:hover
+{
+    background: #ddecfe;
+}
+
+.ux-cal .otherMonth
+{
+	color: #AAAAAA;
+}
+
+.ux-cal-weekday td
+{
+	cursor:default;
+}

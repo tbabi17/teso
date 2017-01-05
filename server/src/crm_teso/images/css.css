@@ -1,0 +1,702 @@
+body {
+	background: url(../images/3-cloud-computing.jpg);
+	background-size: 100%
+}
+
+table.success {
+	background: #ebf0ff;
+	width: 100%;
+}
+
+#main-panel td {
+   padding:5px;
+}
+
+.x-mask {
+    opacity : 0.75;
+}
+
+.x-splitter-vertical{
+    background-color: #e9e9e9;
+} 
+
+.deals {
+	font-size: 11px;
+	line-height: 16px;	
+}
+
+.deals td{
+	vertical-align: top;
+}
+
+
+.disqualifed {
+	background: red;
+	height: 20px;
+	display: block;
+	cellpadding:0;
+	cellspacing:0;
+	margin-bottom: 5px;
+}
+
+.disqualifed td {
+	font-size: 11px;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+}
+
+.level {
+	height: 20px;
+	display: block;
+	cellpadding:0;
+	cellspacing:0;
+	margin-bottom: 5px;
+}
+
+.level tr tbody{
+	width: 100%;
+}
+
+.level td {
+	line-height: 13px;
+	font-size: 11px;
+	width: 200px;
+	background: #cfcfcf;
+	text-align: center;
+	color: #888;
+}
+
+.level td.active{
+	background: orange;
+	color: #fff;
+	font-weight: bold;
+}
+
+.loading {	
+	background: url(../images/king-loading.gif) no-repeat;
+	position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-top: -8px;
+    margin-left: -8px;
+    width: 16px;
+    height: 16px;
+}
+
+.child-row .x-grid-cell { 
+    background-color: #ebf0ff; 
+} 
+ 
+.zero-adult-row .x-grid-cell { 
+	display: none;
+}
+
+.descr-adult-row .x-grid-cell { 
+    background-color: #ebf0ff; 
+}
+
+.adult-row .x-grid-cell { 
+    background-color: #ebf0ff; 
+}
+
+.avatar {
+	width: 24px;
+	height: 24px;
+	border: 1px solid #208dbe;
+	border-radius: 100%;
+}
+
+.logout {
+	float: right;
+	margin-top: 2px;
+	color: #fff;
+	width: auto;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.logout:hover {
+	background: #37b9f3;
+}
+
+
+.caption {
+	background: #1979ca;
+	width: 100%;
+	color: #fff;
+	height: 32px;
+	display: block;
+}
+
+.captitle {
+	font-weight: bold;
+	padding: 7px;
+	display: inline-block;
+}
+
+.logger {
+	float: right;
+	margin: 5px;
+}
+
+.x-grid-row-over .x-grid-cell-inner {
+	color: #3f3f3f;
+}
+
+.price-fall { 
+	 background-color: #00f;
+}
+
+.price-rise {
+	 background-color: #f00;
+}
+
+.x-boundlist-item, .x-boundlist-list-ct{
+	font-size:11px;
+}
+
+.x-tab-strip span.x-tab-strip-text {
+	font-size: 13px;
+}
+
+.title {
+	line-height: 18px;
+	text-decoration: none;
+}
+
+.x-grid-cell-topic .title {
+	line-height: 12px;
+	color: #385F95;
+	text-decoration: none;
+}
+
+.x-grid-cell-topic .userCode {
+	line-height: 12px;
+	color: #c300cf;
+	text-decoration: none;
+	background-image: url(../images/user.png) left 3px no-repeat;
+	padding-left: 12px;
+}
+
+.x-grid-cell-topic b {
+	display: block;
+}
+
+.x-form-item-label {
+	font-size: 11px;
+}
+
+.gray {
+	color: #838383;
+}
+
+.lightgray {
+	color: #333333;
+}
+
+.purple {
+	color: #c300cf;
+}
+
+.c-task {	
+	background-image: url(../images/a-task.png) !important;
+	width: 46px;
+	height: 46px;
+	display: block;
+	margin-right: 5px;
+}
+.c-call {	
+	background-image: url(../images/a-call.png) !important;
+	width: 46px;
+	height: 46px;
+	display: block;
+	margin-right: 5px;
+}
+.c-event {	
+	background-image: url(../images/a-event.png) !important;
+	width: 46px;
+	height: 46px;
+	display: block;
+	margin-right: 5px;
+}
+.c-note {	
+	background-image: url(../images/a-note.png) !important;
+	width: 46px;
+	height: 46px;
+	display: block;
+	margin-right: 5px;
+}
+.c-email {	
+	background-image: url(../images/a-email.png) !important;
+	width: 46px;
+	height: 46px;
+	display: block;
+	margin-right: 5px;
+}
+.c-case {	
+	background-image: url(../images/a-case.png) !important;
+	width: 46px;
+	height: 46px;
+	display: block;
+	margin-right: 5px;
+}
+.c-contact {	
+	background-image: url(../images/a-contact.png) !important;
+	width: 46px;
+	height: 46px;
+	display: block;
+	margin-right: 5px;
+}
+.userCode {
+	line-height: 13px;	
+	text-decoration: none;
+	background-image: url(../images/user.png) !important;
+	background-size:13px 13px;
+	margin-right: 3px;
+	width: 13px;
+	height: 13px;
+	display: inline-block;
+}
+
+.search_result,.x-form-item,.x-form-field {
+	font-size: 11px;
+}
+
+.search_result_custom {
+	font-size: 11px;
+	height: 32px;
+	display: block;
+}
+
+.search_result_img {
+	float: left;
+	width: 32px;
+	height: 32px;
+	margin-right: 5px;
+	display: inline-block;
+}
+
+.highlight-date {
+	background: #157fcc;
+	color: #fff;
+}
+
+.circle {
+	border-radius: 100%;
+	width: 8px;
+	height: 8px;
+	display: inline-block;
+	position: relative;
+	top: 0px;
+	background: transparent;
+	margin-top: 0px;
+}
+
+.circle.suspect {
+	border: 1px solid red;
+}
+
+.circle.prospect {
+	border: 1px solid orange;
+}
+
+.circle.customer {
+	border: 1px solid green;
+}
+
+.circle.vip {
+	border: 1px solid purple;
+}
+
+.birthday_grid {
+    background-image: url(../images/birthday.png) !important;
+	background-size:16px 16px;
+	margin-right: 6px;
+}
+
+.task_grid {
+    background-image: url(../images/task_grid.png) !important;
+	background-size:16px 16px;
+	margin-right: 6px;
+}
+
+.appointment_grid {
+    background-image: url(../images/appointment_grid.png) !important;
+	background-size:16px 16px;
+	margin-right: 6px;
+}
+
+.case_grid {
+    background-image: url(../images/case_grid.png) !important;
+	background-size:16px 16px;
+	margin-right: 6px;
+}
+
+.settings {
+    background-image: url(../images/settings.png) !important;
+	background-size:16px 16px;
+	margin-right: 6px;
+}
+
+.call_grid {
+    background-image: url(../images/call_grid.png) !important;
+	background-size:16px 16px;
+	margin-right: 6px;
+}
+
+.expired_grid {
+    background-image: url(../images/expired.png) !important;
+	background-size:16px 16px;
+	margin-right: 6px;
+}
+.edit {
+    background-image: url(../images/edit.png) !important;
+	background-size:16px 16px;
+}
+.deal {
+    background-image: url(../images/deal.png) !important;
+	background-size:16px 16px;
+}
+.complain {
+    background-image: url(../images/complain.png) !important;
+	background-size:16px 16px;
+}
+.activity {
+    background-image: url(../images/activity.png) !important;
+	background-size:16px 16px;
+}
+.merge {
+    background-image: url(../images/merge.png) !important;
+	background-size:16px 16px;
+}
+.reload {
+    background-image: url(../images/reload.png) !important;
+	background-size:16px 16px;
+}
+.list {
+    background-image: url(../images/list.png) !important;
+	background-size:16px 16px;
+}
+.grid {
+    background-image: url(../images/grid.png) !important;
+	background-size:16px 16px;
+}
+.close {
+    background-image: url(../images/close.png) !important;
+	background-size:16px 16px;
+}
+.add {
+    background-image: url(../images/add.png) !important;
+	background-size:16px 16px;
+}
+.import {
+    background-image: url(../images/import.png) !important;
+	background-size:16px 16px;
+}
+.delete {
+    background-image: url(../images/delete.png) !important;
+	background-size:16px 16px;
+}
+.mail {
+    background-image: url(../images/mail.png) !important;
+	background-size:16px 16px;
+}
+.coldcalling {
+    background-image: url(../images/coldcalling.png) !important;
+	background-size:16px 16px;
+}
+.save {
+    background-image: url(../images/complete.png) !important;
+	background-size:16px 16px;
+}
+.wall {
+    background-image: url(../images/wall.png) !important;
+	background-size:16px 16px;
+}
+.dashboard {
+    background-image: url(../images/dashboard.png) !important;
+	background-size:16px 16px;
+}
+.product {
+    background-image: url(../images/product.png) !important;
+	background-size:16px 16px;
+}
+.report {
+    background-image: url(../images/report.png) !important;
+	background-size:16px 16px;
+}
+.task {
+    background-image: url(../images/task.png) !important;
+	background-size:16px 16px;
+}
+
+.event {
+    background-image: url(../images/appointment.png) !important;
+	background-size:16px 16px;
+}
+.notes {
+    background-image: url(../images/notes.png) !important;
+	background-size:16px 16px;
+}
+.email {
+    background-image: url(../images/email.png) !important;
+	background-size:16px 16px;
+}
+.reset {
+    background-image: url(../images/reset.png) !important;
+	background-size:16px 16px;
+}
+.commit {
+    background-image: url(../images/upload.png) !important;
+	background-size:16px 16px;
+}
+.call {
+    background-image: url(../images/phonecall.png) !important;
+	background-size:16px 16px;
+}
+.cases {
+    background-image: url(../images/cases.png) !important;
+	background-size:16px 16px;
+}
+.campaign {
+    background-image: url(../images/campaign.png) !important;
+	background-size:16px 16px;
+}
+.detail {
+    background-image: url(../images/detail.png) !important;
+	background-size:16px 16px;
+}
+.user {
+    background-image: url(../images/user.png) !important;
+	background-size:16px 16px;
+}
+.company {
+    background-image: url(../images/company.png) !important;
+	background-size:16px 16px;
+}
+.quote {
+    background-image: url(../images/quote.png) !important;
+	background-size:16px 16px;
+}
+.sales {
+    background-image: url(../images/sales.png) !important;
+	background-size:16px 16px;
+}
+.won {
+    background-image: url(../images/won.png) !important;
+	background-size:16px 16px;
+}
+.contact {
+    color: darkmagenta;
+}
+
+.priority.low {
+	color: red;
+	font-size: 11px;
+}
+
+.priority.medium {
+	color: orange;
+	font-size: 11px;
+}
+
+.priority.high {
+	color: green;
+	font-size: 11px;
+}
+
+.warning {
+	color: red;
+	font-weight: bold;
+	font-size: 9px;
+}
+
+.contact_profile {
+	display: inline;
+	float: left;
+	margin-right: 10px;
+	width: 40px;
+	height: 40px;
+	border: 1px solid #eee;
+	padding: 2px;
+}
+
+.sort-desc {
+	background-image: url("../resources/themes/images/default/grid/sort_desc.gif") !important;
+	background-position: 4px 7px !important;
+}
+
+.sort-asc {
+	background-image: url("../resources/themes/images/default/grid/sort_asc.gif") !important;
+	background-position: 4px 7px !important;
+}
+
+.unread {
+	background-image: url(../images/unread.png) !important;
+	width: 16px;
+	height: 16px;
+	margin-top: -2px;
+}
+
+.read {
+	background-image: url(../images/read.png) !important;
+	width: 16px;
+	height: 16px;
+	margin-top: -2px;
+}
+
+.replied {
+	background-image: url(../images/reply.png) !important;
+	width: 16px;
+	height: 16px;
+	margin-top: -2px;
+}
+
+.x-grid3-cell-inner, .x-grid3-hd-inner {
+  white-space: normal; /* changed from nowrap */
+}
+
+.deal_assign {
+    background-image: url(../images/assign.png) !important;
+	background-size:16px 16px;
+}
+
+.deal_next_stage {
+    background-image: url(../images/next-stage.png) !important;
+	background-size:16px 16px;
+}
+
+.deal_qualify {
+    background-image: url(../images/qualify.png) !important;
+	background-size:16px 16px;
+}
+
+.deal_lost {
+    background-image: url(../images/lost.png) !important;
+	background-size:16px 16px;
+}
+
+.deal_won {
+    background-image: url(../images/won.png) !important;
+	background-size:16px 16px;
+}
+
+.calendar {
+    background-image: url(../images/calendar.png) !important;
+	background-size:16px 16px;
+}
+
+.export {
+    background-image: url(../images/export.png) !important;
+	background-size:16px 16px;
+}
+
+
+/*row line height disable*/
+.x-panel-with-col-lines .x-grid-row .x-grid-cell {
+    border-right-style: none !important;
+}
+
+.x-grid-row .x-grid-cell {
+    border-style: none !important
+}
+.x-grid-row-summary .x-grid-cell {
+    border-style: none !important
+}
+
+/*------*/
+
+.upload-icon {
+    background: url('../shared/icons/fam/image_add.png') no-repeat 0 0 !important;
+}
+
+/*
+.x-grid-row.may-duplicate .x-grid-cell {
+	text-decoration: line-through;
+}*/
+.MainPanel .x-tab-bar-strip {
+    top: 29px !important; /* Default value is 20, we add 20 = 40 */
+}
+.MainPanel .x-tab-default .x-tab-inner {
+	font-size: 13px;
+	margin-top: 4px;
+	font-weight: bold;
+	font-family: 'Segoe Ui',Arial,sans-serif;
+	color: #416da3;
+	line-height: 13px;
+}
+.MainPanel .x-tab-bar .x-tab-bar-body {
+    height: 33px !important; /* Default value is 23, we add 20 = 43 */
+    border: 0 !important; /* Overides the border that appears on resizing the grid */
+}
+.MainPanel .x-tab-bar .x-tab-bar-body .x-box-inner {
+    height: 31px !important; /* Default value is 21, we add 20 = 41 */
+}
+.MainPanel .x-tab-bar .x-tab-bar-body .x-box-inner .x-tab {
+    height: 29px !important; /* Default value is 21, we add 20 = 41 */
+}
+.MainPanel .x-tab-bar .x-tab-bar-body .x-box-inner .x-tab button {
+    height: 33px !important; 
+    line-height: 33px !important;
+}
+.MainPanel .x-tab-center{
+      margin-top: -10px; 
+}
+
+.MainPanel .x-tab-bar-default-horizontal {
+	height: 35px;
+}
+
+.way {
+	margin: 0 auto;
+	width: 400px;
+	display: block;
+	height: 350px;
+	background: #fefefe;
+}
+
+.white { 
+	background: #fefefe;
+	padding-top: 0px;
+}
+
+.white .x-css-shadow {
+	box-shadow: rgb(255, 255, 255) 0px 0px 0px;
+}
+
+.login .x-form-item, .x-form-field {
+	font-size: 14px;
+}
+
+.login .x-form-text {
+	height: 30px;
+	line-height: 17px;
+}
+
+.ocrm {
+	margin: 0 auto;
+	width: 400px;
+}
+
+.label {
+	padding: 20px;
+}
+
+.paste {
+	background: #fefefe;
+	margin: 0 auto;
+	padding: 0px;
+	padding-bottom: 0px;
+}
+
+span.dealtext {
+  background: url(../images/deal.png) no-repeat left center;
+  padding-left: 18px; /* at least the width of the icon */  
+}
+
+span.casetext {
+  background: url(../images/complain.png) no-repeat left center;
+  padding-left: 18px; /* at least the width of the icon */
+}

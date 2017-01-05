@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- list_item.xml -->
+<TextView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/list_item_title"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:padding="@dimen/list_item_padding"	
+	android:textSize="@dimen/list_item_font_size"
+	android:gravity="left"
+	android:drawableRight="@drawable/checked"
+	android:singleLine="false"
+	android:textColor="@color/blue_bg"
+	/>
+

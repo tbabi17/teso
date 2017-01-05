@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:id="@+id/service_list"           
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical">
+           	
+    	<LinearLayout
+	   	    android:layout_width="fill_parent"
+	   	    android:layout_height="wrap_content"
+	   	    android:layout_marginBottom="5dp"   
+	   	    android:padding="10dp"	 	   	    
+	   	    android:orientation="horizontal">
+	   	    
+    	    <LinearLayout
+    	        android:layout_width="0dp"
+    	        android:layout_weight="1"    	        
+		   	    android:layout_height="wrap_content"		   	       
+		   	    android:orientation="vertical">
+		   	    <TextView
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:text="Batbileg Tumur"
+		            android:textSize="@dimen/customer_title_font_size"	 
+		            android:id="@+id/contactName"    
+		            android:textColor="@color/black">
+		            
+		        </TextView>
+		        
+		   	    <TextView
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:text="CEO at Мэдээлэл Харилцааны Систем ХХК"
+		            android:id="@+id/contactDescr"
+		            android:textSize="@dimen/sub_title_font_size"
+		            android:textColor="@color/black">
+		            
+		        </TextView>
+		     </LinearLayout>
+	   	    <LinearLayout
+    	        android:layout_width="wrap_content"    	        
+		   	    android:layout_height="wrap_content"		   	       
+		   	    android:orientation="horizontal">
+		   	    <Button
+		            android:id="@+id/location"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"	            
+		            android:gravity="left"
+		            android:padding="@dimen/toolbar_padding"
+		            android:clickable="true"
+		            android:drawableLeft="@drawable/location"
+		            android:background="@drawable/back_button_selector"
+		            android:textColor="@color/black"
+		            android:textSize="@dimen/toolbar_font_size"
+		            android:layout_marginRight="5dp"
+		            android:text="">
+		            
+		         </Button>
+	    	     <Button
+		            android:id="@+id/add_service"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"	            
+		            android:gravity="left"
+		            android:padding="@dimen/toolbar_padding"
+		            android:clickable="true"
+		            android:drawableLeft="@drawable/add"
+		            android:background="@drawable/back_button_selector"
+		            android:textColor="@color/black"
+		            android:textSize="@dimen/toolbar_font_size"
+		            android:text="">
+		            
+		        </Button>
+		     </LinearLayout>
+	   	</LinearLayout>   
+	   	
+    	<LinearLayout
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="1dp"
+    	    android:background="@color/gray">
+    	    
+    	</LinearLayout>
+	    
+	    <ListView
+	        android:layout_width="fill_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="1"
+	        android:layout_marginTop="10dp"
+	        android:scrollbars="none"
+	        android:divider="@color/lgray"
+	        android:dividerHeight="1dp"	        
+	        android:fadingEdge="none"
+	        android:cacheColorHint="@android:color/transparent"		        
+	        android:id="@+id/list">		        
+	    </ListView>		        	    	 		    		    	 
+	    
+</LinearLayout>

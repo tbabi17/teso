@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"    
+    android:id="@+id/product_list"
+    android:background="@drawable/dialog_state"      
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical">
+           	
+    	<LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"   
+	        android:background="@color/gray"            
+	        android:padding="4dp"
+	        android:orientation="vertical">        
+	        
+	        <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"	        	        	       
+		        android:orientation="horizontal">   
+	
+		        <Button
+		            android:id="@+id/back"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"
+		            android:gravity="left|center"
+		            android:padding="@dimen/toolbar_padding"
+		            android:clickable="true"
+		            android:drawableLeft="@drawable/back"
+		            android:background="@drawable/back_button_selector"
+		            android:textColor="@color/black"
+		            android:textSize="@dimen/toolbar_font_size"
+		            android:text="Буцах">
+		            
+		        </Button>
+	        </LinearLayout>
+	  
+	    </LinearLayout>
+    	<LinearLayout
+	   	    android:layout_width="fill_parent"
+	   	    android:layout_height="wrap_content"
+	   	    android:padding="@dimen/product_list_item_padding"   	    
+	   	    android:orientation="horizontal">
+	   	    		   		   	    
+	        <ImageView
+	    	    android:layout_width="@dimen/avatar_icon_size"
+    	    	android:layout_height="@dimen/avatar_icon_size"
+	    	    android:id="@+id/icon"
+	    	    android:src="@drawable/product">
+	    	    
+	    	</ImageView>
+	    	<LinearLayout
+	    	    android:layout_width="fill_parent"
+	    	    android:layout_height="wrap_content"
+	    	    android:layout_marginLeft="10dp"
+	    	    android:orientation="vertical">
+	    	        	
+		        <TextView
+		            android:id="@+id/name"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"            
+		            android:textSize="@dimen/product_list_item_font_size"
+		            android:text="Product name"
+		            android:textStyle="bold"   		            		            
+		            android:textColor="@color/magenta_bg"/>
+		        
+		        <LinearLayout 
+		    		android:layout_width="fill_parent"
+		    		android:layout_height="wrap_content"
+		    		android:orientation="horizontal">                    
+			        <TextView
+		            	android:layout_width="0dp"
+		            	android:layout_height="wrap_content"            
+		            	android:id="@+id/brand"                        
+		            	android:text="brand"
+		            	android:layout_weight="1"
+			            android:textSize="@dimen/product_list_sub_item_font_size"
+		            	android:textColor="@color/black"/>
+		   			<TextView
+		            	android:layout_width="wrap_content"
+		            	android:layout_height="wrap_content"            
+		            	android:id="@+id/price"
+		            	android:gravity="right"
+		            	android:padding="3dp"
+		            	android:textColor="@color/blue_bg"	                              
+		            	android:text="23432"            	 
+			            android:textSize="@dimen/product_list_item_font_size"/>
+				</LinearLayout>	
+			</LinearLayout>	
+	   	</LinearLayout>   
+	   	
+    	<LinearLayout
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="1dp"
+    	    android:background="@color/gray">    	    			
+    	    			
+    	</LinearLayout>
+    	
+    	<LinearLayout
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	    android:gravity="center"
+    	    android:padding="10dp"
+    	    android:orientation="vertical">	
+			
+    	    <LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal" >
+				<TextView
+				    android:layout_width="@dimen/label_width"
+				    android:layout_height="wrap_content"
+				    android:layout_gravity="center_vertical"
+				    android:paddingRight="10dp"
+				    android:textSize="@dimen/title_font_size"
+				    android:textColor="@color/black"
+				    android:text="Хаанаас" />
+				<EditText
+				    android:layout_width="0dp"
+				    android:layout_height="wrap_content"
+				    android:layout_weight="1"
+				    android:background="@drawable/price_state"
+				    android:gravity="center"
+				    android:enabled="false"				    
+				    android:padding="@dimen/text_padding"							    	   
+				    android:id="@+id/warehouse"
+				    android:text=""
+				    android:textSize="@dimen/title_font_size"
+				    android:textColor="@color/white" />
+									
+			</LinearLayout>	
+			
+    	    <LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="10dp"
+				android:id="@+id/price_choosen"
+				android:visibility="gone"
+				android:orientation="horizontal" >
+				<TextView
+				    android:layout_width="@dimen/label_width"
+				    android:layout_height="wrap_content"
+				    android:layout_gravity="center_vertical"
+				    android:paddingRight="10dp"
+				    android:textSize="@dimen/title_font_size"
+				    android:textColor="@color/black"
+				    android:text="Үнэ" />
+				<Button
+				    android:layout_width="0dp"
+				    android:layout_height="wrap_content"
+				    android:layout_weight="1"
+				    android:background="@drawable/price_state"
+				    android:gravity="center"				    			    
+				    android:padding="@dimen/text_padding"							    	   
+				    android:id="@+id/pricetag"
+				    android:text=""
+				    android:textSize="@dimen/title_font_size"
+				    android:textColor="@color/white" />
+									
+			</LinearLayout>
+			
+    	    <LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="10dp"
+				android:orientation="horizontal" >
+				<TextView
+				    android:layout_width="@dimen/label_width"
+				    android:layout_height="wrap_content"
+				    android:layout_gravity="center_vertical"
+				    android:paddingRight="10dp"
+				    android:textSize="@dimen/title_font_size"
+				    android:textColor="@color/black"
+				    android:id="@+id/toollogoText"
+				    android:text="Тооллого" />
+				<EditText
+				    android:layout_width="0dp"
+				    android:layout_height="wrap_content"
+				    android:layout_weight="1"
+				    android:background="@drawable/edit_state"
+				    android:gravity="center"
+				    android:padding="@dimen/edit_padding"
+				    android:textSize="@dimen/edit_font_size"
+				    android:inputType="phone"
+				    android:id="@+id/toollogo"
+				    android:text=""
+				    android:textColor="@color/black"				   
+				    />
+				
+				<Button
+		            android:id="@+id/addToollogo"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"	
+		            android:layout_marginLeft="10dp"	                       
+		            android:gravity="left|center"
+		            android:padding="@dimen/toolbar_padding"
+		            android:textSize="@dimen/toolbar_font_size"
+		            android:clickable="true"
+		            android:drawableLeft="@drawable/add"
+		            android:background="@drawable/back_button_selector"
+		            android:textColor="@color/black"		            
+		            android:text="">
+		            
+		        </Button>	
+		        
+				<Button
+		            android:id="@+id/subToollogo"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"	
+		            android:layout_marginLeft="5dp"	                       
+		            android:gravity="left|center"
+		            android:padding="@dimen/toolbar_padding"
+		            android:textSize="@dimen/toolbar_font_size"
+		            android:clickable="true"
+		            android:drawableLeft="@drawable/sub"
+		            android:background="@drawable/back_button_selector"
+		            android:textColor="@color/black"		            
+		            android:text="">
+		            
+		        </Button>			
+			</LinearLayout>
+    	    
+    	    <LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="10dp"
+				android:orientation="horizontal" >
+				<TextView
+				    android:layout_width="@dimen/label_width"
+				    android:layout_height="wrap_content"
+				    android:layout_gravity="center_vertical"
+				    android:paddingRight="10dp"
+				    android:textSize="@dimen/title_font_size"
+				    android:textColor="@color/black"
+				    android:id="@+id/shirheg"
+				    android:text="Ширхэг" />
+				<EditText
+				    android:layout_width="0dp"
+				    android:layout_height="wrap_content"
+				    android:layout_weight="1"
+				    android:background="@drawable/edit_state"
+				    android:gravity="center"
+				    android:padding="@dimen/edit_padding"
+				    android:textSize="@dimen/edit_font_size"
+				    android:inputType="phone"
+				    android:id="@+id/qty1"
+				    android:text=""
+				    android:textColor="@color/black"				   
+				    />
+				
+				<Button
+		            android:id="@+id/add_"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"	
+		            android:layout_marginLeft="10dp"	                       
+		            android:gravity="left|center"
+		            android:padding="@dimen/toolbar_padding"
+		            android:textSize="@dimen/toolbar_font_size"
+		            android:clickable="true"
+		            android:drawableLeft="@drawable/add"
+		            android:background="@drawable/back_button_selector"
+		            android:textColor="@color/black"		            
+		            android:text="">
+		            
+		        </Button>	
+		        
+				<Button
+		            android:id="@+id/sub_"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"	
+		            android:layout_marginLeft="5dp"	                       
+		            android:gravity="left|center"
+		            android:padding="@dimen/toolbar_padding"
+		            android:textSize="@dimen/toolbar_font_size"
+		            android:clickable="true"
+		            android:drawableLeft="@drawable/sub"
+		            android:background="@drawable/back_button_selector"
+		            android:textColor="@color/black"		            
+		            android:text="">
+		            
+		        </Button>			
+			</LinearLayout>	  
+			
+    	    <LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="10dp"
+				android:id="@+id/hairtsag_layout"
+				android:orientation="horizontal" >
+				<TextView
+				    android:layout_width="@dimen/label_width"
+				    android:layout_height="wrap_content"
+				    android:layout_gravity="center_vertical"
+				    android:paddingRight="10dp"
+				    android:textSize="@dimen/title_font_size"
+				    android:textColor="@color/black"
+				    android:text="Хайрцаг" />
+				<EditText
+				    android:layout_width="0dp"
+				    android:layout_height="wrap_content"
+				    android:layout_weight="1"
+				    android:background="@drawable/edit_state"
+				    android:gravity="center"
+				    android:padding="@dimen/edit_padding"
+				    android:textSize="@dimen/edit_font_size"
+				    android:inputType="phone"
+				    android:id="@+id/qty2"
+				    android:text=""
+				    android:textColor="@color/black"				   
+				    />
+				
+				<Button
+		            android:id="@+id/add1_"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"	
+		            android:layout_marginLeft="10dp"	                       
+		            android:gravity="left|center"
+		            android:padding="@dimen/toolbar_padding"
+		            android:textSize="@dimen/toolbar_font_size"
+		            android:clickable="true"
+		            android:drawableLeft="@drawable/add"
+		            android:background="@drawable/back_button_selector"
+		            android:textColor="@color/black"		            
+		            android:text="">
+		            
+		        </Button>	
+		        
+				<Button
+		            android:id="@+id/sub1_"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"	
+		            android:layout_marginLeft="5dp"	                       
+		            android:gravity="left|center"
+		            android:padding="@dimen/toolbar_padding"
+		            android:textSize="@dimen/toolbar_font_size"
+		            android:clickable="true"
+		            android:drawableLeft="@drawable/sub"
+		            android:background="@drawable/back_button_selector"
+		            android:textColor="@color/black"		            
+		            android:text="">
+		            
+		        </Button>			
+			</LinearLayout>
+			
+    	    <LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="10dp"
+				android:orientation="horizontal" >
+				<TextView
+				    android:layout_width="@dimen/label_width"
+				    android:layout_height="wrap_content"
+				    android:layout_gravity="center_vertical"
+				    android:paddingRight="10dp"
+				    android:textSize="@dimen/title_font_size"
+				    android:textColor="@color/black"
+				    android:text="Дүн" />
+				<EditText
+				    android:layout_width="0dp"
+				    android:layout_height="wrap_content"
+				    android:layout_weight="1"
+				    android:background="@drawable/edit_state"
+				    android:gravity="center"
+				    android:padding="@dimen/edit_padding"
+				    android:textSize="@dimen/edit_font_size"
+				    android:enabled="false"
+				    android:inputType="phone"
+				    android:id="@+id/amount"
+				    android:text=""
+				    android:textColor="@color/black"				   
+				 />
+					
+			</LinearLayout>	    
+			
+    	</LinearLayout>
+	    		          	
+    	<LinearLayout
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"  
+    	    android:orientation="vertical">    	        	        	    
+	    	
+	    	<LinearLayout
+	    	    android:layout_width="fill_parent"
+	    	    android:layout_height="1dp"
+	    	    android:background="@color/gray">
+	    	    
+	    	</LinearLayout>
+	    	
+		    <ListView
+		        android:layout_width="fill_parent"
+		        android:layout_height="0dp"
+		        android:layout_weight="1"	        
+		        android:scrollbars="none"
+		        android:divider="@color/gray"
+		        android:dividerHeight="1dp"
+		        android:padding="0dp"
+		        android:fadingEdge="none"
+		        android:cacheColorHint="@android:color/transparent"		        
+		        android:id="@+id/command">		        
+		    </ListView>	
+    	</LinearLayout>	 		    		    	 	    	   
+</LinearLayout>

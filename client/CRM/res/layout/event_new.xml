@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dip">                   
+    
+    <LinearLayout
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="0dp"   	    
+   	    android:layout_weight="1"  	        	    
+   	    android:orientation="vertical">
+		
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Appointments"
+            android:textSize="22sp"	         
+            android:layout_marginBottom="15dp"              
+            android:textColor="@color/blue_bg">
+            
+        </TextView>
+        
+        <LinearLayout
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="1dp"
+    	    android:background="@color/gray">
+    	    
+    	</LinearLayout>
+    	
+	   	<EditText
+	   	    android:layout_width="fill_parent"
+	   	    android:layout_height="wrap_content"	   	         
+	   	    android:lines="2"
+	   	    android:hint="Subject"
+	   	    android:gravity="top|left"
+	   		android:maxLines="2"
+	   		android:padding="10dp"
+	   		android:textSize="14sp"
+	        android:textColor="@color/black"
+	        android:background="@drawable/memo_bg">
+	   	    
+	   	</EditText>
+	   	
+	   	<LinearLayout
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="1dp"
+    	    android:background="@color/gray">
+    	    
+    	</LinearLayout>
+    	
+	   	<LinearLayout
+	   	    android:layout_width="fill_parent"
+	   	    android:layout_height="wrap_content"
+	   	    android:orientation="horizontal">
+	   	    
+	   	    <TextView
+	   	        android:layout_width="120dp"	   	             
+	   	        android:layout_height="wrap_content"
+	   	        android:padding="10dp"
+	   	        android:textSize="15sp"
+	   	        android:text="Due date : ">	   	        
+	   	    </TextView>
+	   	    <TextView
+	   	        android:layout_width="0dp"
+	   	        android:layout_weight="1"
+	   	        android:gravity="left"
+	   	        android:layout_height="wrap_content"
+	   	        android:text=""
+	   	        android:textSize="15sp"
+	   	        android:textColor="@color/black">	   	        
+	   	    </TextView>
+	   	</LinearLayout>
+	   	
+	   	<LinearLayout
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="1dp"
+    	    android:background="@color/gray">
+    	    
+    	</LinearLayout>
+    	
+	   	<LinearLayout
+	   	    android:layout_width="fill_parent"
+	   	    android:layout_height="wrap_content"
+	   	    android:orientation="horizontal">
+	   	    
+	   	    <TextView
+	   	        android:layout_width="120dp"	   	             
+	   	        android:layout_height="wrap_content"
+	   	        android:padding="10dp"
+	   	        android:textSize="15sp"
+	   	        android:text="Due time : ">	   	        
+	   	    </TextView>
+	   	    <TextView
+	   	        android:layout_width="0dp"
+	   	        android:layout_weight="1"
+	   	        android:gravity="left"
+	   	        android:layout_height="wrap_content"
+	   	        android:text=""
+	   	        android:textSize="15sp"
+	   	        android:textColor="@color/black">	   	        
+	   	    </TextView>
+	   	</LinearLayout>
+	   	
+	   	<LinearLayout
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="1dp"
+    	    android:background="@color/gray">
+    	    
+    	</LinearLayout>
+    	
+	   	<LinearLayout
+	   	    android:layout_width="fill_parent"
+	   	    android:layout_height="wrap_content"
+	   	    android:orientation="horizontal">
+	   	    
+	   	    <TextView
+	   	        android:layout_width="120dp"	   	             
+	   	        android:layout_height="wrap_content"
+	   	        android:padding="10dp"
+	   	        android:textSize="15sp"
+	   	        android:text="Venue : ">	   	        
+	   	    </TextView>
+	   	    <TextView
+	   	        android:layout_width="0dp"
+	   	        android:layout_weight="1"
+	   	        android:gravity="left"
+	   	        android:layout_height="wrap_content"
+	   	        android:text=""
+	   	        android:textSize="15sp"
+	   	        android:textColor="@color/black">	   	        
+	   	    </TextView>
+	   	</LinearLayout>
+	   	
+	   	<LinearLayout
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="1dp"
+    	    android:background="@color/gray">
+    	    
+    	</LinearLayout>
+	   	
+	   	<LinearLayout
+	   	    android:layout_width="fill_parent"
+	   	    android:layout_height="wrap_content"
+	   	    android:orientation="horizontal">
+	   	    
+	   	    <TextView
+	   	        android:layout_width="120dp"	   	             
+	   	        android:layout_height="wrap_content"
+	   	        android:padding="10dp"
+	   	        android:textSize="15sp"
+	   	        android:text="Remind : ">	   	        
+	   	    </TextView>
+	   	    <TextView
+	   	        android:layout_width="0dp"
+	   	        android:layout_weight="1"
+	   	        android:gravity="left"
+	   	        android:layout_height="wrap_content"
+	   	        android:text=""
+	   	        android:textSize="15sp"
+	   	        android:textColor="@color/black">	   	        
+	   	    </TextView>
+	   	</LinearLayout>
+	   	
+	   	<LinearLayout
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="1dp"
+    	    android:background="@color/gray">
+    	    
+    	</LinearLayout>
+    	
+	   	<LinearLayout
+	   	    android:layout_width="fill_parent"
+	   	    android:layout_height="wrap_content"
+	   	    android:orientation="horizontal">
+	   	    
+	   	    <TextView
+	   	        android:layout_width="120dp"	   	             
+	   	        android:layout_height="wrap_content"
+	   	        android:padding="10dp"
+	   	        android:textSize="15sp"
+	   	        android:text="Campaign : ">	   	        
+	   	    </TextView>
+	   	    <TextView
+	   	        android:layout_width="0dp"
+	   	        android:layout_weight="1"
+	   	        android:gravity="left"
+	   	        android:layout_height="wrap_content"
+	   	        android:text=""
+	   	        android:textSize="15sp"
+	   	        android:textColor="@color/black">	   	        
+	   	    </TextView>
+	   	</LinearLayout>	   		   
+	   	
+	   	<LinearLayout
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="1dp"
+    	    android:background="@color/gray">
+    	    
+    	</LinearLayout>
+    	
+	   	<EditText
+	   	    android:layout_width="fill_parent"
+	   	    android:layout_height="0dp"
+	   	    android:layout_weight="1"        
+	   	    android:lines="5"
+	   	    android:hint="Notes"
+	   	    android:gravity="top|left"
+	   		android:maxLines="10"
+	   		android:padding="10dp"
+	   		android:textSize="14sp"
+	        android:textColor="@color/black"
+	        android:background="@drawable/memo_bg">
+	   	    
+	   	</EditText>
+	 </LinearLayout>
+</LinearLayout>
